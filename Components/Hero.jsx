@@ -4,7 +4,7 @@ const Hero = () => {
 
     return(
         <div className="hero-container">
-            <Image src='static/images/profile.png' className="profile-img" width={300} height={300} alt="Rizki Personal headshot"/>
+            <Image src='/static/images/profile.png' className="profile-img" width={300} height={300} alt="Rizki Personal headshot"/>
             <div className="hero-text">
                 <h1>Hey, I'm Rizki</h1>
                 <p>
@@ -28,7 +28,7 @@ const Hero = () => {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                    href="https://www.linkedin.com/in/ranandars"
+                    href="https://www.linkedin.com/in/ranandars?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                     aria-label="Linkedin"
                     target="_blank"
                     rel="noopener noreferrer"
