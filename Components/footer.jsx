@@ -4,7 +4,7 @@ const Footer = () => {
             <hr/>
             <div className="footer-container">
                 <p>
-                    {new Date().getFullYear()} Rizki Anandar Portfolio
+                    © {new Date().getFullYear()} Made by Rizki Anandar Saputra
                 </p>
                 <div className="social_icons">
                     <a
