@@ -4,7 +4,7 @@ const Hero = () => {
 
     return(
         <div className="hero-container">
-            <Image src='/images/profile.png' className="profile-img" width={300} height={300} alt="Rizki Personal headshot"/>
+            <Image src='static/images/profile.png' className="profile-img" width={300} height={300} alt="Rizki Personal headshot"/>
             <div className="hero-text">
                 <h1>Hey, I'm Rizki</h1>
                 <p>
