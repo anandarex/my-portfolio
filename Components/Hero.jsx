@@ -4,7 +4,7 @@ const Hero = () => {
 
     return(
         <div className="hero-container">
-            <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Rizki Personal headshot"/>
+            <Image src='/images/profile.png' className="profile-img" width={300} height={300} alt="Rizki Personal headshot"/>
             <div className="hero-text">
                 <h1>Hey, I'm Rizki</h1>
                 <p>
@@ -26,6 +26,14 @@ const Hero = () => {
                     rel="noopener noreferrer"
                     >
                         <i className="fa-brands fa-github"></i>
+                    </a>
+                    <a
+                    href="https://www.linkedin.com/in/ranandars"
+                    aria-label="Linkedin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
             </div>
