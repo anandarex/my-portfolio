@@ -2,8 +2,6 @@ import { projectData } from "./data";
 
 const Projects = () => {
     return (
-        <div className="projects-container">
-            <h2>Projects</h2>
             <div className="projects-container">
                 <h2>Projects</h2>
                 <div className="projects-grid">
@@ -22,7 +20,6 @@ const Projects = () => {
                     }
                 </div>
             </div>
-        </div>
     )
 }
 
