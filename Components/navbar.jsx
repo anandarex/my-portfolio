@@ -14,7 +14,7 @@ const Navbar = () => {
           <Greetings/>
         </Link>
       </div>
-      <a onClick={downloadFile} className="cta-btn">My Resume</a>
+      <a onClick={downloadFile} target="_blank" rel="noopener noreferrer" className="cta-btn">My Resume</a>
     </div>
   )
 }
