@@ -1,14 +1,20 @@
 import Link from "next/link";
+import Greetings from "./greetings";
+
+
+const downloadFile = () => {
+  window.location.href = "https://drive.google.com/file/d/1n-zdPlSurdx24RNs4egc0C5iOCw1B_n1/view?usp=drive_link"
+}
 
 const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo">
         <Link href="/">
-          My Portfolio
+          <Greetings/>
         </Link>
       </div>
-      <a href="" className="cta-btn">Resume</a>
+      <a onClick={downloadFile} className="cta-btn">My Resume</a>
     </div>
   )
 }

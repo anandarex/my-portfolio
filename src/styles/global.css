@@ -360,6 +360,12 @@ hr {
   color: #b3b3b3;
 }
 
+.projects-grid :hover {
+  background-color: gray;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 10px gray(0, 0, 0, 40);
+}
+
 /* contact */
 .contact-container {
   padding: 2rem 0 4rem;
