@@ -13,6 +13,9 @@ const About = () => {
                     <p>
                         Throughout my career, I have worked on a wide range project, from simple static websites to complex enterprise-level applications.
                     </p>
+                    <p>
+                        Create something backward that cool
+                    </p>
                 </div>
                 <div className="about-img">
                     <Image src='/static/images/about.png' className="profile-img" width={300} height={500} />

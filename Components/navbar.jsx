@@ -3,7 +3,7 @@ import Greetings from "./greetings";
 
 
 const downloadFile = () => {
-  window.location.href = "https://drive.google.com/file/d/1n-zdPlSurdx24RNs4egc0C5iOCw1B_n1/view?usp=drive_link"
+  window.location.href = "https://drive.google.com/file/d/1IXEpFSwjwUb081NcZ_lw44K-_L4VxaW1/view"
 }
 
 const Navbar = () => {
